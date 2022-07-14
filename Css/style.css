@@ -1,0 +1,86 @@
+/*-----Link paleta de colores*-----**/
+/*---http://www.colourlovers.com/patterns/add?colors=A4B9BE,9FB9BA,B5A9A9,31C7EA,B7AFAC&pID=4877067---*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgb(0, 0, 0)!important;
+}
+
+.text-warning {
+    color: #31C7EA;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(49 199 234);
+}
+
+.btn-outline-warning {
+    
+    border-color: #31C7EA;
+}
+
+.btn-outline-warning {
+    color: #31C7EA;
+    border-color: #31C7EA;
+}
+.btn:hover {
+    background: #cdd0d1;
+}
+
+#carousel{
+    position: relative; /*Para que se adapte a la pantalla*/
+}
+h1{
+    font-size: 50px;
+}
+
+.overlay {
+    position:absolute; /* Para que se adapta al caruosel*/
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #31C7EA;
+}
+
+#text-llamado{
+    color: #FFD60A !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#carusel{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: sepia(30%);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 500px;
+}
+
+#evento-marca{
+    background-color: #000000;
+    color: #000000;
+}
+
+#evento-marca img{
+    max-width: 100%;   
+}
+
+
+
+
+
+/*--Css Footer--*/
+#footer{
+    background: #000000;
+    text-decoration: none;
+}
