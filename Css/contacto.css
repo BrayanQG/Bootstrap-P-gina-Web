@@ -124,6 +124,12 @@ body > div {
 .section-contact .form-contact .submit-input input:hover {
 	background-color:#212525;
 }
+#alert {
+	width:400px;
+    position:fixed;
+    top:10px;
+    right:10px;
+}
 
 @media (max-width: 575.99px) {
 	.section-contact {
