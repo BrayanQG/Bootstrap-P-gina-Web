@@ -9,38 +9,31 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/stylegen.css">
     <title>Mgs Cables</title>
 </head>
 <body class="bg-secondary">
 
-    <!-- Inicio del menu -->
-
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+     <!-- Inicio del menu -->
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-
             <!-- icono  -->
-
             <a class="navbar-brand" href="#">
                 <i class="bi bi-flower1"></i>
             </a>
-
             <!-- boton del menu -->
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <!-- elementos del menu -->
-
             <div class="collapse navbar-collapse " id="menu">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/principal.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tv&video.html">TV Y VIDEO</a>
+                        <a class="nav-link" href="/Páginas/tv&video.html">TV Y VIDEO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Páginas/audio.html">AUDIO</a>
@@ -48,58 +41,124 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/Páginas/cables.html">CABLES</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVICIOS
-                        </a>
-
-                        <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Páginas/equipos.html">Equipos</a>
-                        </ul>
-                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Páginas/energia.html">ENERGÍA</a>
+                  </li>
                 </ul>
-
-                <hr class="d-md-none text-white-50">
-
-                <!-- Iconos Redes Sociales -->
-
+                <div class="busqueda">
+                    <form class="navbar-form navbar-left" role="search"> <div class="form-group"> <input type="text" class="form-control" placeholder="Search"> </div> <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button> </form>
+                </div>
+                <!-- Inicio iconos Notificacion -->
                 <ul class="navbar-nav  flex-row flex-wrap text-light">
-
                     <li class="nav-item col-6 col-md-auto p-3">
-                        <i class="bi bi-twitter"></i>
-                        <small class="d-md-none ms-2">Twitter</small>
+                        <i class="bi bi-cart2"></i>
+                        <small class="d-md-none ms-2">Compras</small>
                     </li>
-
                     <li class="nav-item col-6 col-md-auto p-3">
-                        <i class="bi bi-github"></i>
-                        <small class="d-md-none ms-2">GitHub</small>
-                    </li>
-
-                    <li class="nav-item col-6 col-md-auto p-3">
-                        <i class="bi bi-whatsapp"></i>
-                        <small class="d-md-none ms-2">WhatsApp</small>
-                    </li>
-
-                    <li class="nav-item col-6 col-md-auto p-3">
-                        <i class="bi bi-facebook"></i>
-                        <small class="d-md-none ms-2">Facebook</small>
+                        <i class="bi bi-bell-fill"></i>
+                        <small class="d-md-none ms-2">Notificación</small>
                     </li>
                 </ul>
-                <!--boton Informacion -->
-
-                <form class="d-flex">
-                    <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Informacion</button>
-                </form>
+                <!-- Fin iconos Notificacion -->
             </div>
         </div>
     </nav>
     <!-- Fin del menu -->
 
-
-
-    <!-- Inicio cards -->
+     <!-- Inicio cards -->
+         <!-- Aqui Comienzan los productos-->
+         <section id="productos" class="mt-4 mb-4">
+            <div class="container"> 
+              <div class="row">
+                <div class="col text-center text-uppercase">
+                    <div class="back">
+                       <a href="/principal.html"><i class="bi bi-house-fill"></i></a>
+                       <i class="bi bi-arrow-right"></i>
+                    <h5>CABLES</h5>
+                </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img src="/Img/img-cables/img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span class="badge rounded-pill bg-warning text-dark">Disponible</span>
+                      <h5 class="card-title">CABLES PARA CELULAR Y TABLET</h5>
+                      <p class="card-text">Disponemos de todas las medidas para tu PANTALLA</p>
+                      <br>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img src="/Img/img-cables/img2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <span class="badge rounded-pill bg-warning text-dark">Disponible</span>
+                      
+                      <h5 class="card-title">CABLES DE AUDIO</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img src="/Img/img-cables/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <span class="badge rounded-pill bg-warning text-dark">Disponible</span>
+                      
+                      <h5 class="card-title">CABLES TELEFÓNICOS</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img src="/Img/img-cables/img4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span class="badge rounded-pill bg-warning text-dark">Tiempo Limitado</span>
+                      
+                      <h5 class="card-title">CABLES DE RED</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img src="/Img/img-cables/img5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <span class="badge rounded-pill bg-warning text-dark">Disponible</span>
+                      
+                      <h5 class="card-title">EXTENSIONES ELÉCTRICAS</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+                </div>
     
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                      <img src="/Img/img-cables/img6.jpg" classclass="card-img-top" alt="...">
+                      <div class="card-body">
+                         <span class="badge rounded-pill bg-warning text-dark">Disponible</span>
+                        
+                        <h5 class="card-title">CABLES DE ALIMENTACIÓN</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+        <!--Aqui acaba productos-->
     <!-- Fin cards -->
 
 

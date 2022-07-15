@@ -17,57 +17,56 @@
 <body class="bg-secondary">
 
     <!-- Inicio del menu -->
-
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
             <!-- icono  -->
-            <a class="navbar-brand" href="/principal.html">
+            <a class="navbar-brand" href="#">
                 <i class="bi bi-flower1"></i>
             </a>
-
             <!-- boton del menu -->
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <!-- elementos del menu -->
-
             <div class="collapse navbar-collapse " id="menu">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="principal.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="/principal.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Páginas/tv&video.html">TV Y VIDEO</a>
+                        <a class="nav-link" href="/Páginas/tv&video.html">TV Y VIDEO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Páginas/audio.html">AUDIO</a>
+                        <a class="nav-link" href="/Páginas/audio.html">AUDIO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Páginas/cables.html">CABLES</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVICIOS
-                        </a>
-
-                        <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Páginas/">Equipos</a>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Páginas/energia.html">ENERGÍA</a>
                     </li>
                 </ul>
+                <div class="busqueda">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group"> <input type="text" class="form-control" placeholder="Search"> </div>
+                        <button type="submit" class="btn btn-default"><span
+                                class="glyphicon glyphicon-search"></span></button>
+                    </form>
+                </div>
 
-                <hr class="d-md-none text-white-50">
-
-
-                <!--boton Informacion -->
-
-                <form class="d-flex">
-                    <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Informacion</button>
-                </form>
+                <!-- Inicio iconos Notificacion -->
+                <ul class="navbar-nav  flex-row flex-wrap text-light">
+                    <li class="nav-item col-6 col-md-auto p-3">
+                        <i class="bi bi-cart2"></i>
+                        <small class="d-md-none ms-2">Compras</small>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto p-3">
+                        <i class="bi bi-bell-fill"></i>
+                        <small class="d-md-none ms-2">Notificación</small>
+                    </li>
+                </ul>
+                <!-- Fin iconos Notificacion -->
             </div>
         </div>
     </nav>
@@ -96,12 +95,10 @@
                         <p>
                             Magic Store es una empresa 100% ecuatoriana dedicada a la comercialización y venta de
                             aparatos electrónicos.
-                            Todos nuestros productos se
-                            inspeccionan, ya que contamos con una oficina de control de calidad porque nuestros clientes
-                            siempre son prioridad.
                         </p>
-                        <a href="#" id="boton-alterno" class="btn btn-outline-warning">Súper Ofertas</a>
-                        <button type="button" class="btn btn-warning m-3">Productos exclusivos</button>
+                        <div class="botones">
+                            <a href="#" id="boton-alterno" class="btn btn-outline-warning">Súper Ofertas</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,53 +107,145 @@
     <!-- Fin del carousel -->
 
     <!--Algo mas xd-->
-    <section id="productos" class="mt-4 mb-4 m-4">
-        <div class="row aling-items-center ml-4">
-                <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/src/casuel 2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-    
-            
-                <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/src/casuel 2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+    <div class="row">
+        <div id="textsex" class="col-lg-12 p-5">
+          <h1 class="txt"><i class="fa fa-tachometer" aria-hidden="true"></i> SECCIÓN</h1>
+          <hr />
+        </div>
+      </div>
+    <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
+        <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+            <div class="col hp">
+                <div class="card h-100 shadow-sm">
+                    <a href="#">
+                        <img src="https://m.media-amazon.com/images/I/81gK08T6tYL._AC_SL1500_.jpg" class="card-img-top"
+                            alt="product.title" />
+                    </a>
+                    <div class="card-body">
+                        <div class="clearfix mb-3">
+                            <span class="float-start badge rounded-pill bg-success">Laptop Gamer</span>
 
-            
-                <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/src/casuel 2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Promociones</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <span class="float-end"><a href="#"
+                                    class="small text-muted text-uppercase aff-link">reviews</a></span>
+                        </div>
+                        <h5 class="card-title">
+                            <a target="_blank" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Ratione ipsum omnis possimus dolor ex debitis soluta incidunt eos
+                                 molestiae, temporibus in expedita fuga pariatur quas aliquam id nesciunt! Fugit, ad.</a>
+                        </h5>
+                        <div id="botonxd"class="d-grid gap-2 my-4">
+                            <a href="#" class="btn btn-warning bold-btn">SABER MÁS</a>
+                        </div>
+                        <div class="clearfix mb-1">
+
+                            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+
+                            <span class="float-end">
+                                <i class="far fa-heart" style="cursor: pointer"></i>
+
+                            </span>
                         </div>
                     </div>
                 </div>
-                
             </div>
-    </section>
+            <div class="col hp">
+                <div class="card h-100 shadow-sm">
+                    <a href="#">
+                        <img src="https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_SL1500_.jpg" class="card-img-top"
+                            alt="product.title" />
+                    </a>
 
+                    
+                    <div class="card-body">
+                        <div class="clearfix mb-3">
+                            <span class="float-start badge rounded-pill bg-success">2.345$</span>
+
+                            <span class="float-end"><a href="#"
+                                    class="small text-muted text-uppercase aff-link">reviews</a></span>
+                        </div>
+                        <h5 class="card-title">
+                            <a target="_blank" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Ratione ipsum omnis possimus dolor ex debitis soluta incidunt eos
+                                 molestiae, temporibus in expedita fuga pariatur quas aliquam id nesciunt! Fugit, ad.</a>
+                        </h5>
+                        <div id="botonxd" class="d-grid gap-2 my-4">
+                            <a href="#" class="btn btn-warning bold-btn">SABER MÁS</a>
+                        </div>
+                        <div class="clearfix mb-1">
+                            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+                            <span class="float-end">
+                                <i class="far fa-heart" style="cursor: pointer"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col hp">
+                <div class="card h-100 shadow-sm">
+                    <a href="#">
+                        <img src="https://m.media-amazon.com/images/I/81w+3k4U8PL._AC_SL1500_.jpg" class="card-img-top"
+                            alt="product.title" />
+                    </a>
+                    <div class="card-body">
+                        <div class="clearfix mb-3">
+                            <span class="float-start badge rounded-pill bg-success">1.020$</span>
+
+                            <span class="float-end"><a href="#"
+                                    class="small text-muted text-uppercase aff-link">reviews</a></span>
+                        </div>
+                        <h5 class="card-title">
+                            <a target="_blank" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Ratione ipsum omnis possimus dolor ex debitis soluta incidunt eos
+                                 molestiae, temporibus in expedita fuga pariatur quas aliquam id nesciunt! Fugit, ad.</a>
+                        </h5>
+                        <div  id="botonxd" class="d-grid gap-2 my-4">
+                            <a href="#" class="btn btn-warning bold-btn">SABER MÁS</a>
+                        </div>
+                        <div class="clearfix mb-1">
+                            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+                            <span class="float-end">
+                                <i class="far fa-heart" style="cursor: pointer"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col hp">
+                <div class="card h-100 shadow-sm">
+                    <a href="#">
+                        <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top"
+                            alt="product.title" />
+                    </a>
+
+                    
+                    <div class="card-body">
+                        <div class="clearfix mb-3">
+                            <span class="float-start badge rounded-pill bg-success">2.245$</span>
+                            <span class="float-end"><a href="#"
+                                    class="small text-muted text-uppercase aff-link">reviews</a></span>
+                        </div>
+                        <h5 class="card-title">
+                            <a target="_blank" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Ratione ipsum omnis possimus dolor ex debitis soluta incidunt eos
+                                 molestiae, temporibus in expedita fuga pariatur quas aliquam id nesciunt! Fugit, ad.</a>
+                        </h5>
+                        <div id="botonxd" class="d-grid gap-2 my-4">
+                            <a href="#" class="btn btn-warning bold-btn">SABER MÁS</a>
+                        </div>
+                        <div class="clearfix mb-1">
+                            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+                            <span class="float-end">
+                                <i class="far fa-heart" style="cursor: pointer"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Fin de Algo mas xd-->
 
-
-
+   
     <!--Inicio Footer-->
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
@@ -165,10 +254,10 @@
                     <a href="#">Acerca de</a>
                 </div>
                 <div class="col-12 col-lg">
-                    <a href="#">Informacion de contacto</a>
+                    <a href="/Páginas/contacto.html">Informacion de contacto</a>
                 </div>
                 <div class="col-12 col-lg">
-                    <a href="#">Mapa del sitio web</a>
+                    <a href="/Páginas/mapa.html">Mapa del sitio web</a>
                 </div>
                 <div class="col-12 col-lg">
                     <a href="#">Terminos y condiciones</a>
@@ -201,7 +290,6 @@
             </div>
 
         </div>
-
     </footer>
     <!--Fin Footer-->
 
