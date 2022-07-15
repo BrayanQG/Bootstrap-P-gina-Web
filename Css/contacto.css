@@ -29,7 +29,7 @@ body > div {
 	font-family: "Oswald", sans-serif;
 	padding-top: 120px;
 	padding-bottom: 120px;
-	color: #07395c;
+	color:#00f2fe;
 }
 
 .section-contact {
@@ -57,7 +57,7 @@ body > div {
 
 .section-contact .header-section .description {
 	font-family: "Roboto", sans-serif;
-	color: #2a6287;
+	color:#000000;
 }
 
 .section-contact .header-section .big-title {
@@ -70,9 +70,6 @@ body > div {
     opacity: 0.15;
 }
 
-.section-contact .form-contact {
-
-}
 
 .section-contact .form-contact .single-input {
 	position: relative;
@@ -117,7 +114,7 @@ body > div {
 .section-contact .form-contact .submit-input input {
 	margin-top: 40px;
     padding: 15px 50px;
-    background-color: #de3842;
+    background-color: #a38f90;
     color: #fff;
     border: none;
     font-weight: 700;
@@ -125,7 +122,7 @@ body > div {
 }
 
 .section-contact .form-contact .submit-input input:hover {
-	background-color: #07395c;
+	background-color:#212525;
 }
 
 @media (max-width: 575.99px) {
